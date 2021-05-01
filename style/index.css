@@ -1,0 +1,100 @@
+.verticalmenu {
+    width: 200px;
+}
+
+.verticalmenu a {
+    background-color: aliceblue;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.verticalmenu a:hover {
+    background-color:black;
+    color: orange;
+}
+
+.f {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+}
+
+.f > div{
+flex: 1 1 130px;
+}
+
+.g {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: aquamarine;
+} 
+
+.block {
+    background-color: aqua;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+    border-radius: 25px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.column {
+    float:none;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.row {
+    margin: 0 -5px;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: darkgrey;
+    color: antiquewhite;
+}
+
+header{
+    background: blue;
+    width: 100%;
+    overflow:hidden;}
+
+
+     header li {
+         list-style: none;
+         display: inline-block;
+         padding: 10px;
+         text-decoration: none;}
+
+
+
+         header a{
+             text-decoration: none;
+             color:white}
+
+
+             header li :hover{
+                 color:white;
+             }
+
+
+                 header nav{
+                     float: right;
+                 }
+   header .logo img{
+                 width:30%;
+                 height: 20%
+             }
